@@ -7,4 +7,10 @@
     <string name="button_text" translatable="false">letsGO!!!</string>
     <string name="history_text">Travel History</string>
     <string name="travel_options_text">Travel Options</string>
+    <string name="labelName">Name:</string>
+    <string name="labelDescription">Description:</string>
+    <string name="labelVehicle">Vehicle:</string>
+    <string name="labelRating">Rating:</string>
+    <string name="labelValue">Value:</string>
+    <string name="buttonPickDriverText">Choose this</string>
 </resources>
