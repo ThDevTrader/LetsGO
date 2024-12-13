@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LetsGO App</string>
+    <string name="user_id">ID do Usuário</string>
+    <string name="start_point">De:</string>
+    <string name="end_point">Para</string>
+    <string name="history_text">Histórico de Viagens</string>
+    <string name="travel_options_text">Opções</string>
+    <string name="labelName">Nome:</string>
+    <string name="labelDescription">Descrição:</string>
+    <string name="labelVehicle">Veículo:</string>
+    <string name="labelRating">Avaliação:</string>
+    <string name="labelValue">Valor:</string>
+    <string name="generate">Gerar</string>
+</resources>
