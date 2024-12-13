@@ -13,4 +13,10 @@
     <string name="labelRating">Rating:</string>
     <string name="labelValue">Value:</string>
     <string name="buttonPickDriverText">Choose this</string>
+    <string name="generate">Generate</string>
+    <string-array name="travel_modes">
+        <item>Carro</item>
+        <item>Ônibus</item>
+        <item>Trem</item>
+    </string-array>
 </resources>

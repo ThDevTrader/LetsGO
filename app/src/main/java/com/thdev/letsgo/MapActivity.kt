@@ -30,6 +30,19 @@ class MapActivity : AppCompatActivity() {
         initRecyclerView()
     }
 
+
+    private fun initRecyclerView() {
+        binding.optionsList.layoutManager = LinearLayoutManager(this)
+        binding.optionsList.setHasFixedSize(true)
+        binding.optionsList.adapter = AdapterDrivers(getList())
+
+        binding.optionsList.visibility = View.GONE
+
+        Handler(Looper.getMainLooper()).postDelayed({
+            binding.optionsList.visibility = View.VISIBLE },
+            2000)
+    }
+
     private fun getList(): ArrayList<DriverOption> {
         return arrayListOf(
             DriverOption(
@@ -66,18 +79,6 @@ class MapActivity : AppCompatActivity() {
             )
 
         )
-    }
-
-    private fun initRecyclerView() {
-        binding.optionsList.layoutManager = LinearLayoutManager(this)
-        binding.optionsList.setHasFixedSize(true)
-        binding.optionsList.adapter = AdapterDrivers(getList())
-
-        binding.optionsList.visibility = View.GONE
-
-        Handler(Looper.getMainLooper()).postDelayed({
-            binding.optionsList.visibility = View.VISIBLE },
-            2000)
     }
 
 }
