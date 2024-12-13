@@ -9,6 +9,10 @@ Aplicativo Android desenvolvido em Kotlin, que permite ao usuário simular a sol
 - Listar o histórico de viagens realizadas pelo usuário.
 
 # #
+### **Utilizando Excalidraw para iniciar o desenvolvimento** ###
+![TesteSHopper](https://github.com/user-attachments/assets/8a0f0e9b-9188-4119-9b1c-cfb8d89619fc)
+
+# #
 
 ### **Como executar o projeto localmente** ###
 #### 1. Clone o repositório ####
